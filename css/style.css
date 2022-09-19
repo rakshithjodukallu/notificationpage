@@ -1,0 +1,156 @@
+*, ::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Notification top header */
+
+.notification-page{
+    background-color: #f9fafe;
+    padding: 50px;
+}
+
+.notification-inner{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.header-notification{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header-notification h4{
+    font-weight: 700;
+}
+
+
+
+.header-notification h4 span{
+    color: #fff;
+    background-color: #1a3669;
+    font-size: 14px;
+    padding: 1px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.header-notification h6{
+    color: #9c9ea0;
+    
+    font-size: 14px;
+    
+}
+
+.notification-message{
+    display: flex;
+    padding: 15px;
+    column-gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+
+.notification-image img{
+    width: 50px;
+
+    
+}
+
+.message-bg{
+    background-color: #f6fafd;
+    border-radius: 15px;
+}
+
+
+.notification-details h6{
+    font-size: 14px;
+}
+
+.notification-details strong{
+    color: #3c3f48;
+}
+
+.notification-details span.textgrey{
+    color: #9c9ea0;
+}
+
+.notification-details span.comment{
+    color: #747981;
+    
+}
+
+.notification-details span.time{
+    color: #bdc0c5;
+    position: relative;
+    top: 4px;
+    font-size: 12px;
+
+}
+
+.notification-details span.bluetext{
+    color: #49618e;
+    font-weight: 700
+
+}
+
+.notification-details span.offline{
+    width: 7px;
+    height: 7px;
+    background-color: #d6595d;
+    position: relative;
+    bottom: 1px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.messagebox{
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #bdc0c5;
+    border-radius: 5px;
+}
+
+.right-img{
+    position: absolute;
+    right: 15px;
+    width: 40px;
+}
+
+.notification-image img.size {
+    width: 62px;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1200px) {
+    .notification-inner{
+        width: 100%;
+       
+    }
+    .notification-page {
+        background-color: #f9fafe;
+        padding: 50px 0;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .notification-message {
+        
+        flex-direction: column;
+    }
+    .notification-image img {
+        margin-bottom: 5px;
+    }
+  }
+
+.attribution { font-size: 16px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
